@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Main">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/menu_item1"
+                    android:title="Title1"
+                    android:icon="@drawable/ic_share"/>
+
+                <item android:id="@+id/menu_item2"
+                    android:title="Title2"
+                    android:icon="@drawable/ic_share"/>
+
+                <item android:id="@+id/menu_item3"
+                    android:title="Title3"
+                    android:icon="@drawable/ic_share"/>
+            </group>
+
+        </menu>
+    </item>
+
+<item android:title="Categoty">
+    <menu>
+
+
+        <item android:id="@+id/menu_item4"
+            android:title="Title4"
+            android:icon="@drawable/ic_share"/>
+
+        <item android:id="@+id/menu_item5"
+            android:title="Title5"
+            android:icon="@drawable/ic_share"/>
+
+        <item android:id="@+id/menu_item6"
+            android:title="Title6"
+            android:icon="@drawable/ic_share"/>
+
+    </menu>
+</item>
+</menu>

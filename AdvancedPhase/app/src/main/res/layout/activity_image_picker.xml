@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImagePickerActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_images"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/btn_select_multiple_images"
+        app:layout_constraintEnd_toEndOf="@+id/btn_select_multiple_images"
+        app:layout_constraintStart_toStartOf="@+id/btn_select_multiple_images">
+
+        <ImageView
+            android:id="@+id/image_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_user_6" />
+
+        <ImageView
+            android:id="@+id/image_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_user_6" />
+
+        <ImageView
+            android:id="@+id/image_third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_user_6" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_select_multiple_images"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select multiple images"
+        app:layout_constraintBottom_toTopOf="@+id/img_user"
+        app:layout_constraintEnd_toEndOf="@+id/img_user"
+        app:layout_constraintStart_toStartOf="@+id/img_user" />
+
+    <ImageView
+        android:id="@+id/img_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/btn_pick_img"
+        app:layout_constraintEnd_toEndOf="@+id/btn_pick_img"
+        app:layout_constraintStart_toStartOf="@+id/btn_pick_img"
+        android:src="@drawable/ic_user_6" />
+
+    <Button
+        android:id="@+id/btn_pick_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Pick Single Image"
+        app:layout_constraintBottom_toTopOf="@+id/videoView"
+        app:layout_constraintEnd_toEndOf="@+id/videoView"
+        app:layout_constraintStart_toStartOf="@+id/videoView" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_pick_video"
+        app:layout_constraintEnd_toEndOf="@+id/btn_pick_video"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/btn_pick_video" />
+
+    <Button
+        android:id="@+id/btn_pick_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Pick video"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

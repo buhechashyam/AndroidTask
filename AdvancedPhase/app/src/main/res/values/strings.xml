@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Advanced Phase</string>
+    <string name="txt_btn_notify">Notify</string>
+    <string name="text_simple_notification">Simple Notification</string>
+    <string name="txt_direct_reply_notification">Direct Reply Notification</string>
+    <string name="txt_custom_notification">Custom Notification</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

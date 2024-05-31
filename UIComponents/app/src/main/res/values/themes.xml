@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UIComponents" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorPrimary">#673AB7</item>
+        <item name="colorPrimaryDark">#512DA8</item>
+        <item name="colorAccent">#FF4081</item>
+
+    </style>
+
+    <style name="Theme.UIComponents" parent="Base.Theme.UIComponents" />
+
+    <style name="MyButtonStyle">
+        <item name="android:textStyle">normal</item>
+        <item name="cornerRadius">126dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CalenderDateCustomText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">#FF9800</item>
+    </style>
+
+    <style name="CalenderWeeklyCustomText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/purple</item>
+    </style>
+</resources>

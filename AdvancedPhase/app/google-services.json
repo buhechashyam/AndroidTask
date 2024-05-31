@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "23928944146",
+    "project_id": "android-crashlytics-5325c",
+    "storage_bucket": "android-crashlytics-5325c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23928944146:android:a9cd3893467d9c3f564acb",
+        "android_client_info": {
+          "package_name": "com.example.advancedphase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL_hrjGDitJqswSvrjvcGAgKkWdxWbUeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

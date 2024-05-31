@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <name>John Doe</name>
+        <age>20</age>
+        <gender>Male</gender>
+        <grade>A</grade>
+    </student>
+    <student>
+        <name>Jane Smith</name>
+        <age>19</age>
+        <gender>Female</gender>
+        <grade>B</grade>
+    </student>
+    <student>
+        <name>Michael Johnson</name>
+        <age>21</age>
+        <gender>Male</gender>
+        <grade>C</grade>
+    </student>
+</students>

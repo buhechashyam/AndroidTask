@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context=".storage.PermissionsActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="24dp"
+        android:id="@+id/btn_storage_permission"
+        style="@style/ShapeAppearanceOverlay.Material3.Button"
+        android:layout_width="wrap_content"
+        app:cornerRadius="8dp"
+        android:layout_height="wrap_content"
+        android:text="Write Storage Permission"
+        android:backgroundTint="@color/black"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/ic_google"
+        android:id="@+id/img"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="24dp"
+        android:id="@+id/btn_save_image"
+        style="@style/ShapeAppearanceOverlay.Material3.Button"
+        android:layout_width="wrap_content"
+        app:cornerRadius="8dp"
+        android:layout_height="wrap_content"
+        android:text= "Save Image To Internal Storage"
+        android:backgroundTint="@color/black"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+
+</LinearLayout>

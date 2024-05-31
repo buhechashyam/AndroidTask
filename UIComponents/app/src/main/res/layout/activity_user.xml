@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".tablelayout.UserActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:background="#3F51B5"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="@string/title_table_id"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="4dp"
+                android:layout_weight="3"
+                android:text="@string/title_table_first_name"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="4dp"
+                android:layout_weight="3"
+                android:text="@string/title_table_last_name"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/white"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="@string/txt_id_1"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="4dp"
+                android:layout_weight="3"
+                android:text="@string/txt_name_shyam"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="4dp"
+                android:layout_weight="3"
+                android:text="@string/txt_name_buhecha"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/white"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="@string/txt_id_2"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="4dp"
+                android:layout_weight="3"
+                android:text="@string/txt_name_sagar"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="4dp"
+                android:layout_weight="3"
+                android:text="@string/txt_name_ajudiya"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/white"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="@string/txt_id_3"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="4dp"
+                android:layout_weight="3"
+                android:text="@string/txt_name_darshan"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="4dp"
+                android:layout_weight="3"
+                android:text="DANGAR"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:background="@color/white"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="@string/txt_id_4"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="4dp"
+                android:layout_weight="3"
+                android:text="@string/txt_name_pratik"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="4dp"
+                android:layout_weight="3"
+                android:text="ZINZALA"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

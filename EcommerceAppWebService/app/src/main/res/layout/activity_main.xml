@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="55dp"
+        android:layout_marginBottom="8dp"
+        android:text="GET Request with Query"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/btn_get_users"
+        app:layout_constraintEnd_toEndOf="@id/btn_get_users"
+        app:layout_constraintStart_toStartOf="@id/btn_get_users" />
+
+    <Button
+        android:id="@+id/btn_get_users"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Users"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_delete_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="55dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Delete Request"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/btn_get_users"
+        app:layout_constraintStart_toStartOf="@id/btn_get_users"
+        app:layout_constraintTop_toBottomOf="@id/btn_get_users" />
+
+    <Button
+        android:id="@+id/btn_delete_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Get Users"
+        app:layout_constraintEnd_toEndOf="@+id/text_delete_request"
+        app:layout_constraintStart_toStartOf="@+id/text_delete_request"
+        app:layout_constraintTop_toBottomOf="@+id/text_delete_request" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

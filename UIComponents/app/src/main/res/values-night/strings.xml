@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msg_desc">App Icon</string>
+    <string name="title_btn_login">Login</string>
+    <string name="title_btn_register">Register</string>
+    <string name="title_welcome_text">Welcome back! Glad to see you, Again!</string>
+    <string name="msg_google_login">Google Login</string>
+    <string name="msg_apple_login">Apple Login</string>
+    <string name="text_options">Or Login with</string>
+    <string name="title_table_id">ID</string>
+    <string name="title_table_first_name">First Name</string>
+    <string name="txt_id_1">1</string>
+</resources>

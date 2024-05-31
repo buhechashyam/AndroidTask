@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.LoginActivity">
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/et_email"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="34dp"
+        android:paddingEnd="24dp"
+        android:text="@string/title_welcome_text"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/et_password"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="8dp"
+        android:autofillHints="shyam@gmail.com"
+        android:hint="@string/text_email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_forget_password"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="8dp"
+        android:autofillHints=""
+        android:hint="@string/text_password"
+        android:inputType="textPassword"
+        android:maxLength="8"
+        android:maxLines="1"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_forget_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_login"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/action_forget_password"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text_login_options"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/title_btn_login"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:cornerRadius="8dp" />
+
+    <TextView
+        android:id="@+id/text_login_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_google"
+        android:layout_marginBottom="32dp"
+        android:gravity="center_horizontal"
+        android:text="@string/text_options" />
+
+    <ImageButton
+        android:id="@+id/btn_facebook"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/btn_google"
+        android:layout_marginEnd="16dp"
+        android:layout_toStartOf="@+id/btn_google"
+        android:background="@color/white"
+        android:contentDescription="@string/msg_facebook_login"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_facebook" />
+
+    <ImageButton
+        android:id="@+id/btn_google"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/text_msg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:background="@color/white"
+        android:contentDescription="@string/msg_google_login"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_google" />
+
+    <ImageButton
+        android:id="@+id/btn_apple"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/btn_google"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@id/btn_google"
+        android:background="@color/white"
+        android:contentDescription="@string/msg_apple_login"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_apple" />
+
+    <TextView
+        android:id="@+id/text_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text_register_now"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:text="@string/msg_ask"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_register_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="36dp"
+        android:text="@string/action_register_now"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/primary_light_blue"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

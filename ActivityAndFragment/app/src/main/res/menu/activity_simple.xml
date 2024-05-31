@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_cart"
+        android:icon="@drawable/ic_menu_cart"
+        android:title="cart"
+        android:iconTint="@color/white"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/menu_login"
+        android:icon="@drawable/ic_menu_login"
+        android:title="Login"
+        android:iconTint="@color/white"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/menu_setting"
+        android:icon="@drawable/ic_menu_setting"
+        android:title="Setting"
+        android:iconTint="@color/white"
+        app:showAsAction="never"/>
+</menu>

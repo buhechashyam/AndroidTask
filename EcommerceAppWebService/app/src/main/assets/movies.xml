@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+    <movie>
+        <title>The Shawshank Redemption</title>
+        <director>Frank Darabont</director>
+        <year>1994</year>
+        <genre>Drama</genre>
+        <rating>9.3</rating>
+    </movie>
+    <movie>
+        <title>The Godfather</title>
+        <director>Francis Ford Coppola</director>
+        <year>1972</year>
+        <genre>Crime</genre>
+        <rating>9.2</rating>
+    </movie>
+    <movie>
+        <title>The Dark Knight</title>
+        <director>Christopher Nolan</director>
+        <year>2008</year>
+        <genre>Action</genre>
+        <rating>9.0</rating>
+    </movie>
+    <movie>
+        <title>Forrest Gump</title>
+        <director>Robert Zemeckis</director>
+        <year>1994</year>
+        <genre>Drama</genre>
+        <rating>8.8</rating>
+    </movie>
+    <movie>
+        <title>Inception</title>
+        <director>Christopher Nolan</director>
+        <year>2010</year>
+        <genre>Sci-Fi</genre>
+        <rating>8.8</rating>
+    </movie>
+</movies>
